@@ -331,6 +331,7 @@ behaviors {
 
         nal: nums_auto_layer {
             compatible = "zmk,behavior-auto-layer";
+            label = "NUMS_AUTO_LAYER";
             #binding-cells = <1>;
             continue-list = <N0 N1 N2 N3 N4 N5 N6 N7 N8 N9 DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
             ignore-modifiers;
@@ -338,6 +339,7 @@ behaviors {
 
         sal: symbols_auto_layer {
             compatible = "zmk,behavior-auto-layer";
+            label = "SYMBOLS_AUTO_LAYER";
             #binding-cells = <1>;
             continue-list = <CARET TILDE STAR PLUS AMPERSAND GRAVE RBKT LBKT PERCENT EXCL COLON EQUAL UNDERSCORE DOLLAR POUND DQT LPAR RPAR SEMI LT PIPE MINUS GT FSLH BSLH AT LBKT RBKT QMARK>;
             ignore-modifiers;
